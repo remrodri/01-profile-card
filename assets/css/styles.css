@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  font-size: 10px;
+  height: 100dvh;
+  background-image: url("../images/pexels-kamo11235-667838.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.workSpace {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.userCard {
+  background: rgba(200, 210, 255, 0.301);
+  border-radius: 1.6rem;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.301);
+  height: 52.7em;
+  width: 38.7rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  /* color: rgb(196, 196, 196); */
+}
+.bodyCard {
+  height: 100%;
+  background-color: rgba(36, 35, 35, 0.719);
+  border-radius: 0.6rem 0.6rem 0 0;
+  border: 1px solid rgba(36, 35, 35, 0.719);
+}
+.profilePictureContainer {
+  height: 50%;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+  /* background-color: rgba(36, 35, 35, 0.719); */
+}
+
+.profilePictureStyle {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.infoContainer {
+  color: rgb(237, 238, 240);
+  font-size: 1.3rem;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.profileName {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.about {
+  text-align: center;
+  padding: 0 4rem;
+}
+.location {
+  text-align: center;
+  font-size: 1.5rem;
+  color: rgb(189, 180, 180);
+  background: rgb(30, 29, 29);
+  width: 30%;
+  border-radius: 1.5rem;
+}
+.footerCard {
+  height: 15%;
+}
+.iconsContainer {
+  height: 15%;
+  width: 100%;
+  background-color: rgba(36, 35, 35, 0.719);
+  border-radius: 0 0 0.6rem 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid rgba(36, 35, 35, 0.719);
+}
+.iconStyle {
+  width: 4rem;
+}
+.button1 {
+  width: 5rem;
+  height: 5rem;
+  background-color: rgba(36, 35, 35, 0);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: none;
+}
+.button1:hover {
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background: rgba(200, 210, 255, 0.301);
+}
+
+.hvr-grow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
